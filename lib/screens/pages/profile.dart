@@ -7,6 +7,7 @@ import 'package:glumor/screens/widgets/bottom_navbar.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class Profile extends StatefulWidget {
+  static const id = "profile";
   @override
   _ProfileState createState() => _ProfileState();
 }

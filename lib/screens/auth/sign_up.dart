@@ -9,6 +9,7 @@ import 'package:glumor/screens/widgets/buttons.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class SignUp extends StatefulWidget {
+  static const id = 'sign_up';
   @override
   _SignUpState createState() => _SignUpState();
 }

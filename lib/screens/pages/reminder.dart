@@ -7,6 +7,7 @@ import 'package:glumor/screens/widgets/bottom_navbar.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class Reminder extends StatefulWidget {
+  static const id = "reminder";
   @override
   _ReminderState createState() => _ReminderState();
 }

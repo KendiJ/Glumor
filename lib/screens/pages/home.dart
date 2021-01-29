@@ -6,6 +6,7 @@ import 'package:glumor/screens/widgets/bottom_navbar.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class Home extends StatefulWidget {
+  static const id = "home";
   @override
   _HomeState createState() => _HomeState();
 }

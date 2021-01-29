@@ -7,6 +7,7 @@ import 'package:glumor/app/app_text_styles.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class SignIn extends StatefulWidget {
+  static const id = 'sign_in';
   @override
   _SignInState createState() => _SignInState();
 }
