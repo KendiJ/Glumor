@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:glumor/app/app_bar.dart';
 import 'package:glumor/app/app_colors.dart';
 import 'package:glumor/app/app_strings.dart';
 import 'package:glumor/app/app_text_styles.dart';
@@ -108,16 +109,16 @@ class _HomeState extends State<Home> {
                             ),
                           ),
                           Height5(),
-                          Padding(
-                            padding:
-                                const EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 15.0),
-                            child: Text(
-                              currency(0),
-                              style: AppTextStyle.textSize18.copyWith(
-                                  color: Colors.white,
-                                  fontWeight: FontWeight.w500),
-                            ),
-                          ),
+                          // Padding(
+                          //   padding:
+                          //       const EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 15.0),
+                          //   child: Text(
+                          //     currency(0),
+                          //     style: AppTextStyle.textSize18.copyWith(
+                          //         color: Colors.white,
+                          //         fontWeight: FontWeight.w500),
+                          //   ),
+                          // ),
                         ],
                       ),
                     ),

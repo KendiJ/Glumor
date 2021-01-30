@@ -3,6 +3,7 @@ import 'package:glumor/app/app_colors.dart';
 import 'package:glumor/app/app_strings.dart';
 import 'package:glumor/screens/pages/home.dart';
 import 'package:glumor/screens/pages/profile.dart';
+import 'package:google_nav_bar/google_nav_bar.dart';
 
 class BottomNavBar extends StatefulWidget {
   static const id = 'bottom_nav_bar';
@@ -84,15 +85,15 @@ class _BottomNavBarState extends State<BottomNavBar> {
       case 0:
         goTo(Home.id);
         break;
-      case 1:
-        goTo(Wallet.id);
-        break;
-      case 2:
-        goTo(Notifications.id);
-        break;
-      case 3:
-        goTo(Transactions.id);
-        break;
+      // case 1:
+      //   goTo(Wallet.id);
+      //   break;
+      // case 2:
+      //   goTo(Notifications.id);
+      //   break;
+      // case 3:
+      //   goTo(Transactions.id);
+      //   break;
       case 4:
         goTo(Profile.id);
         break;

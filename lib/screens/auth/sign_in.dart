@@ -4,6 +4,10 @@ import 'package:glumor/app/app_colors.dart';
 import 'package:glumor/app/app_decoration.dart';
 import 'package:glumor/app/app_strings.dart';
 import 'package:glumor/app/app_text_styles.dart';
+import 'package:glumor/screens/auth/forgot_pass.dart';
+import 'package:glumor/screens/auth/sign_up.dart';
+import 'package:glumor/screens/pages/home.dart';
+import 'package:glumor/screens/widgets/buttons.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class SignIn extends StatefulWidget {
@@ -49,8 +53,8 @@ class _SignInState extends State<SignIn> {
             TextField(
               obscureText: true,
               decoration: AppDecorations.textForm.copyWith(
-                hintText: AppStrings.bolmaPin,
-                labelText: AppStrings.bolmaPin,
+                hintText: AppStrings.newPassword,
+                labelText: AppStrings.newPassword,
               ),
             ),
             Height20(),
@@ -70,7 +74,7 @@ class _SignInState extends State<SignIn> {
                     ),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {
-                        Navigator.pushNamed(context, RetrivePin.id);
+                        Navigator.pushNamed(context, ForgotPassword.id);
                       },
                   ),
                 ],

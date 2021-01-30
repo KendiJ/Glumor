@@ -44,21 +44,21 @@ class _HelpDeskState extends State<HelpDesk> {
               padding: const EdgeInsets.all(20.0),
               child: Column(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      AppCard.about,
-                      AppCard.emailUs,
-                    ],
-                  ),
-                  Height20(),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                    children: [
-                      AppCard.talkWith,
-                      AppCard.chatWith,
-                    ],
-                  ),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //   children: [
+                  //     AppCard.about,
+                  //     AppCard.emailUs,
+                  //   ],
+                  // ),
+                  // Height20(),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  //   children: [
+                  //     AppCard.talkWith,
+                  //     AppCard.chatWith,
+                  //   ],
+                  // ),
                 ],
               ),
             ),

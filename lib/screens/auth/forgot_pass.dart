@@ -10,6 +10,7 @@ import 'package:glumor/screens/widgets/buttons.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class ForgotPassword extends StatefulWidget {
+  static const id = 'forgotPassword';
   @override
   _ForgotPasswordState createState() => _ForgotPasswordState();
 }
