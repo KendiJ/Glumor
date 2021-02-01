@@ -45,8 +45,8 @@ class _SignInState extends State<SignIn> {
             TextField(
               obscureText: true,
               decoration: AppDecorations.textForm.copyWith(
-                hintText: AppStrings.phoneNumber,
-                labelText: AppStrings.phoneNumber,
+                hintText: AppStrings.emailAddress,
+                labelText: AppStrings.emailAddress,
               ),
             ),
             Height20(),
@@ -54,7 +54,7 @@ class _SignInState extends State<SignIn> {
               obscureText: true,
               decoration: AppDecorations.textForm.copyWith(
                 hintText: AppStrings.newPassword,
-                labelText: AppStrings.newPassword,
+                labelText: AppStrings.password,
               ),
             ),
             Height20(),

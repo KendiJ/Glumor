@@ -43,8 +43,8 @@ class _ForgotPasswordState extends State<ForgotPassword> {
             TextField(
               obscureText: true,
               decoration: AppDecorations.textForm.copyWith(
-                hintText: AppStrings.phoneNumber,
-                labelText: AppStrings.phoneNumber,
+                hintText: AppStrings.emailAddress,
+                labelText: AppStrings.emailAddress,
               ),
             ),
             Height30(),

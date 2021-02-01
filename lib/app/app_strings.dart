@@ -15,7 +15,9 @@ class AppStrings {
   static const String phoneNumber = 'Phone Number';
   static const String fullName = 'Full Name';
   static const String emailAddress = 'Email Address';
+  static const String password = 'Enter Password';
   static const String newPassword = 'New Password';
+  static const String confirmPassword = 'Confirm Password';
   static const String forgetPin = 'Forget PIN';
   static const String hello = 'Hello';
 

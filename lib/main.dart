@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:glumor/screens/auth/forgot_pass.dart';
 import 'package:glumor/screens/auth/sign_in.dart';
 import 'package:glumor/screens/auth/sign_up.dart';
 import 'package:glumor/screens/pages/home.dart';
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
           BottomNavBar.id: (context) => BottomNavBar(),
           Home.id: (context) => Home(),
           Reminder.id: (context) => Reminder(),
+          ForgotPassword.id: (context) => ForgotPassword(),
           // Transactions.id: (context) => Transactions(),
           Profile.id: (context) => Profile(),
         },

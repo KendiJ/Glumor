@@ -5,6 +5,7 @@ import 'package:glumor/app/app_decoration.dart';
 import 'package:glumor/app/app_strings.dart';
 import 'package:glumor/app/app_text_styles.dart';
 import 'package:glumor/screens/auth/sign_in.dart';
+import 'package:glumor/screens/pages/home.dart';
 import 'package:glumor/screens/widgets/buttons.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
@@ -70,6 +71,14 @@ class _SignUpState extends State<SignUp> {
                 labelText: AppStrings.newPassword,
               ),
             ),
+            Height20(),
+            TextField(
+              obscureText: true,
+              decoration: AppDecorations.textForm.copyWith(
+                hintText: AppStrings.confirmPassword,
+                labelText: AppStrings.confirmPassword,
+              ),
+            ),
             Height30(),
             CustomButton(
               text: Text(
@@ -78,7 +87,7 @@ class _SignUpState extends State<SignUp> {
                   color: Colors.white,
                 ),
               ),
-              onPressed: () {},
+              onPressed: () => Navigator.pushNamed(context, Home.id),
             ),
             Height40(),
             RichText(
