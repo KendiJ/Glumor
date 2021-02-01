@@ -57,12 +57,12 @@ class _HomeState extends State<Home> {
                           size: 50,
                           color: AppColors.primaryColor,
                         ),
-                        Text(
-                          AppStrings.fundWallet,
-                          style: AppTextStyle.textSize15.copyWith(
-                            color: AppColors.primaryColor,
-                          ),
-                        ),
+                        // Text(
+                        //   AppStrings.fundWallet,
+                        //   style: AppTextStyle.textSize15.copyWith(
+                        //     color: AppColors.primaryColor,
+                        //   ),
+                        // ),
                       ],
                     )
                   ],
@@ -73,16 +73,16 @@ class _HomeState extends State<Home> {
                 padding: const EdgeInsets.fromLTRB(15.0, 5.0, 15.0, 5.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      AppStrings.overview,
-                      style: AppTextStyle.textSize15,
-                    ),
-                    Text(
-                      AppStrings.viewInsight,
-                      style: AppTextStyle.textSize15,
-                    ),
-                  ],
+                  // children: [
+                  //   Text(
+                  //     AppStrings.overview,
+                  //     style: AppTextStyle.textSize15,
+                  //   ),
+                  //   Text(
+                  //     AppStrings.viewInsight,
+                  //     style: AppTextStyle.textSize15,
+                  //   ),
+                  // ],
                 ),
               ),
               Row(
@@ -146,12 +146,12 @@ class _HomeState extends State<Home> {
                           Padding(
                             padding:
                                 const EdgeInsets.fromLTRB(8.0, 0.0, 8.0, 15.0),
-                            child: Text(
-                              currency(0),
-                              style: AppTextStyle.textSize18.copyWith(
-                                  color: AppColors.primaryColor,
-                                  fontWeight: FontWeight.w500),
-                            ),
+                            // child: Text(
+                            //   currency(0),
+                            //   style: AppTextStyle.textSize18.copyWith(
+                            //       color: AppColors.primaryColor,
+                            //       fontWeight: FontWeight.w500),
+                            // ),
                           ),
                         ],
                       ),

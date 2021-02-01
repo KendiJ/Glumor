@@ -9,6 +9,7 @@ class AppStrings {
       'Before creating your account you have have to agree with our Terms and Conditions.';
   static const String retriveNote = 'Enter your email adress ';
   static const String dontHaveAnAccount = 'Don\'t have an account';
+  static const String alreadyHaveAnAcount = 'Don\'t have an account';
   static const String helplineNote = 'Choose from the following actions';
 
   static const String phoneNumber = 'Phone Number';
