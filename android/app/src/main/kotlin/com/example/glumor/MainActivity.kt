@@ -1,4 +1,4 @@
-package com.example.glumor
+package com.glam.glumor
 
 import io.flutter.embedding.android.FlutterActivity
 

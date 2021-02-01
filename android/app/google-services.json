@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "798340756883",
+    "project_id": "da-vinci-1059f",
+    "storage_bucket": "da-vinci-1059f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798340756883:android:19ec67f429d093eafae466",
+        "android_client_info": {
+          "package_name": "com.glam.glumor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798340756883-pkseji12k51vpsri9o3ltpd7ta5gfhp4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.glam.glumor",
+            "certificate_hash": "90c89d7c9787410a39b64439a1cb63aaed29c7f9"
+          }
+        },
+        {
+          "client_id": "798340756883-smg81vec7699gtm0s75m7homfpl7l3pr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCs4JJYPextVhum2DRsad7my1FD8tjy3AU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798340756883-smg81vec7699gtm0s75m7homfpl7l3pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
