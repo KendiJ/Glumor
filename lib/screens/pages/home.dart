@@ -52,11 +52,11 @@ class _HomeState extends State<Home> {
                     ),
                     Column(
                       children: [
-                        Icon(
-                          Icons.add_box_outlined,
-                          size: 50,
-                          color: AppColors.primaryColor,
-                        ),
+                        // Icon(
+                        //   Icons.add_box_outlined,
+                        //   size: 50,
+                        //   color: AppColors.primaryColor,
+                        // ),
                         // Text(
                         //   AppStrings.fundWallet,
                         //   style: AppTextStyle.textSize15.copyWith(
