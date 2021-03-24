@@ -1,13 +1,12 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:glumor/screens/auth/forgot_pass.dart';
-import 'package:glumor/screens/auth/sign_in.dart';
-import 'package:glumor/screens/auth/sign_up.dart';
-import 'package:glumor/screens/pages/home.dart';
-import 'package:glumor/screens/pages/profile.dart';
-import 'package:glumor/screens/pages/reminder.dart';
-import 'package:glumor/screens/widgets/bottom_navbar.dart';
+import 'auth/firebase_user_provider.dart';
+import 'package:glumor/log_in/log_in_widget.dart';
+import 'package:glumor/home_page/home_page_widget.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(MyApp());
 }
 
@@ -16,19 +15,35 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
-      initialRoute: SignIn.id,
-        routes: {
-          SignUp.id: (context) => SignUp(),
-          SignIn.id: (context) => SignIn(),
-          BottomNavBar.id: (context) => BottomNavBar(),
-          Home.id: (context) => Home(),
-          Reminder.id: (context) => Reminder(),
-          ForgotPassword.id: (context) => ForgotPassword(),
-          // Transactions.id: (context) => Transactions(),
-          Profile.id: (context) => Profile(),
-        },
+      title: 'My Flutter App',
+      theme: ThemeData(primarySwatch: Colors.blue),
+      home: GlumorHomePage(),
     );
   }
 }
 
+class GlumorHomePage extends StatelessWidget {
+  const GlumorHomePage({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return StreamBuilder<GlumorFirebaseUser>(
+      stream: glumorFirebaseUser,
+      initialData: glumorFirebaseUser.value,
+      builder: (context, snapshot) {
+        return snapshot.data.when(
+          user: (_) => HomePageWidget(),
+          loggedOut: () => LogInWidget(),
+          initial: () => Container(
+            color: Colors.white,
+            child: const Center(
+              child: CircularProgressIndicator(
+                valueColor: AlwaysStoppedAnimation<Color>(Color(0xff4b39ef)),
+              ),
+            ),
+          ),
+        );
+      },
+    );
+  }
+}
