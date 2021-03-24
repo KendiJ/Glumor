@@ -7,20 +7,12 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:798340756883:android:19ec67f429d093eafae466",
+        "mobilesdk_app_id": "1:798340756883:android:5714e8d6fca434aafae466",
         "android_client_info": {
-          "package_name": "com.glam.glumor"
+          "package_name": "com.flutterflow.glumor"
         }
       },
       "oauth_client": [
-        {
-          "client_id": "798340756883-pkseji12k51vpsri9o3ltpd7ta5gfhp4.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.glam.glumor",
-            "certificate_hash": "90c89d7c9787410a39b64439a1cb63aaed29c7f9"
-          }
-        },
         {
           "client_id": "798340756883-smg81vec7699gtm0s75m7homfpl7l3pr.apps.googleusercontent.com",
           "client_type": 3
@@ -37,6 +29,13 @@
             {
               "client_id": "798340756883-smg81vec7699gtm0s75m7homfpl7l3pr.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "798340756883-jb5npvlhaoh9h5jinua9slllep1l8b5m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.flutterflow.glumor"
+              }
             }
           ]
         }
