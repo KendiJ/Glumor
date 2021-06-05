@@ -88,6 +88,7 @@ class _SignUpState extends State<SignUp> {
                 ),
               ),
               onPressed: () => Navigator.pushNamed(context, Home.id),
+              height: 20, width: 30, shape: RoundedRectangleBorder(),
             ),
             Height40(),
             RichText(

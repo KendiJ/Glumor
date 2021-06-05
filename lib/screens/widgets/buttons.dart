@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:glumor/app/app_decoration.dart';
 
+// ignore: camel_case_types
 typedef voidFunction = void Function();
 
 class CustomButton extends StatelessWidget {
@@ -22,13 +23,13 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: width ?? 400,
-      height: height ?? 50,
+      width: width,
+      height: height,
       decoration: AppDecorations.buttonStyle,
-      child: FlatButton(
+      child: TextButton(
         onPressed: onPressed,
         child: text,
-        shape: shape,
+        // child: shape,
       ),
     );
   }

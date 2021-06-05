@@ -31,4 +31,6 @@ class AppStrings {
   static const String emailUs = 'Email Us';
   static const String talkWith = 'Talk With \n Our Operator';
   static const String chatWith = 'Chat With \n Support Team';
+
+  static const String medication = 'Medication Schedule';
 }

@@ -89,7 +89,7 @@ class _SignInState extends State<SignIn> {
                   color: Colors.white,
                 ),
               ),
-              onPressed: () => Navigator.pushNamed(context, Home.id),
+              onPressed: () => Navigator.pushNamed(context, Home.id), height: 20, width: 30, shape: RoundedRectangleBorder(),
             ),
             Height10(),
             Column(
@@ -132,16 +132,16 @@ class _SignInState extends State<SignIn> {
 }
 
 _signInButton() {
-  return OutlineButton(
-    splashColor: Colors.grey,
+  return OutlinedButton(
+    // splashColor: Colors.grey,
     onPressed: () {
       signInWithGoogle().then((result) {  
         if (result != null) {}
       });
     },
-    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
-    highlightElevation: 0,
-    borderSide: BorderSide(color: Colors.grey),
+    // shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40)),
+    // highlightElevation: 0,
+    // borderSide: BorderSide(color: Colors.grey),
     child: Padding(
       padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
       child: Row(

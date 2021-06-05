@@ -3,7 +3,6 @@ import 'package:glumor/app/app_bar.dart';
 import 'package:glumor/app/app_colors.dart';
 import 'package:glumor/app/app_strings.dart';
 import 'package:glumor/app/app_text_styles.dart';
-import 'package:glumor/screens/widgets/bottom_navbar.dart';
 import 'package:glumor/screens/widgets/spacer.dart';
 
 class Home extends StatefulWidget {
@@ -194,9 +193,9 @@ class _HomeState extends State<Home> {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavBar(
-        selectedIndex: 0,
-      ),
+      // bottomNavigationBar: BottomNavBar(
+      //   selectedIndex: 0,
+      // ),
     );
   }
 }

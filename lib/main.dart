@@ -5,7 +5,6 @@ import 'package:glumor/screens/auth/sign_up.dart';
 import 'package:glumor/screens/pages/home.dart';
 import 'package:glumor/screens/pages/profile.dart';
 import 'package:glumor/screens/pages/reminder.dart';
-import 'package:glumor/screens/widgets/bottom_navbar.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,7 +20,7 @@ class MyApp extends StatelessWidget {
         routes: {
           SignUp.id: (context) => SignUp(),
           SignIn.id: (context) => SignIn(),
-          BottomNavBar.id: (context) => BottomNavBar(),
+          // BottomNavBar.id: (context) => BottomNavBar(),
           Home.id: (context) => Home(),
           Reminder.id: (context) => Reminder(),
           ForgotPassword.id: (context) => ForgotPassword(),
