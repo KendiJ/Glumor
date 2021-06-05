@@ -38,9 +38,9 @@ class _ReminderState extends State<Reminder> {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavBar(
-        selectedIndex: 2,
-      ),
+      // bottomNavigationBar: BottomNavBar(
+      //   selectedIndex: 2,
+      // ),
     );
   }
 }

@@ -65,7 +65,7 @@ class _HelpDeskState extends State<HelpDesk> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavBar(),
+      // bottomNavigationBar: BottomNavBar(),
     );
   }
 }

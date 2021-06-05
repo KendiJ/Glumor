@@ -9,8 +9,8 @@ class BottomNavBar extends StatefulWidget {
   static const id = 'bottom_nav_bar';
   final int selectedIndex;
   BottomNavBar({
-    Key key,
-    this.selectedIndex,
+    required Key key,
+    required this.selectedIndex,
   }) : super(key: key);
   
   @override

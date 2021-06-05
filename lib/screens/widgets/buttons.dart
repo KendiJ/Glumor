@@ -12,11 +12,11 @@ class CustomButton extends StatelessWidget {
 
   /// This button has a default [height] and [width] of 50 and 400 respectively.
   CustomButton({
-    this.text,
-    @required this.onPressed,
-    this.height,
-    this.width,
-    this.shape,
+    required this.text,
+    required this.onPressed,
+    required this.height,
+    required this.width,
+    required this.shape,
   });
 
   @override

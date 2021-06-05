@@ -53,7 +53,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                 AppStrings.retrivePassword.toUpperCase(),
                 style: AppTextStyle.textSize20.copyWith(color: Colors.white),
               ),
-              onPressed: () {},
+              onPressed: () {}, height: 20, width: 30, shape: null,
             ),
             Height30(),RichText(
               textAlign: TextAlign.center,

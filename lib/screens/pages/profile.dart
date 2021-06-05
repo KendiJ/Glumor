@@ -37,9 +37,9 @@ class _ProfileState extends State<Profile> {
           ],
         ),
       ),
-      bottomNavigationBar: BottomNavBar(
-        selectedIndex: 4,
-      ),
+      // bottomNavigationBar: BottomNavBar(
+      //   selectedIndex: 4,
+      // ),
     );
   }
 }
